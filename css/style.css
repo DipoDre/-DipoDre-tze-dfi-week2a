@@ -1,0 +1,429 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Universal selector: */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Menu section: */
+
+.menu {
+    float: left;
+    background-color: rgb(108, 209, 108);
+    height: 1500px;
+    color: white;
+}
+
+.menu-header {
+    width: 100%;
+    height: 8%;
+    margin-top: 40px;
+}
+
+.menu .hamburger {
+    display: none;
+}
+
+.menu-header h2 {
+    text-align: center;
+    width: 70%;
+    margin: auto auto;
+}
+
+.menu-pix {
+    width: 100%;
+}
+
+.menu-pix .profile-pix {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu p {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu .social-icons {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu .social {
+    text-align: center;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu .social .fa-stack {
+    font-size: medium;
+    cursor: pointer;
+}
+
+.menu .social .fa-stack-1x {
+    color: rgb(108, 209, 108);
+}
+
+.menu hr { 
+    height: 1px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu ul {
+    display: block;
+    text-align: center;
+}
+
+.menu li {
+    margin-top: 20px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu .current-page {
+    color: rgb(45, 90, 45);
+}
+
+.menu button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(45, 90, 45);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* Main section: */
+
+.main {
+    float: left;
+    height: 800px;
+}
+
+
+/* Main - Home page: */
+
+.home-upper {
+    background-color: #f4f4f4;
+    height: 230px;
+    text-align: center;
+    padding: 3% 10%;
+}
+
+.home-upper h2, .home-upper p, .home-upper form {
+    margin-top: 15px;
+}
+
+.home-upper .green-button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgb(108, 209, 108);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+.home-upper input[type="email"] {
+    width: 40%;
+    height: 40px;
+    padding-left: 1%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.home-lower .article {
+    clear: both;
+    height: 160px;
+    margin: 30px auto;
+}
+
+.home-lower .thumb-pix {
+    float: left;
+}
+
+.home-lower .thumbnail {
+    width: 95%;
+}
+
+.home-lower .thumb-text {
+    float: left;
+}
+
+.home-lower .thumb-text h4 {
+    margin-top: 5px;
+}
+
+
+.home-lower .thumb-text ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.home-lower .thumb-text li {
+    color: grey;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.home-lower .thumb-text ul li:first-child {
+    list-style: none;
+}
+
+.home-lower .thumb-text p {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+
+.home-lower .thumb-text a {
+    display: block;
+    margin-top: 5px;
+    color: rgb(108, 209, 108);
+    font-weight: lighter;
+    font-size: small;
+    text-decoration: none;
+}
+
+/* Main - Blog page: */
+
+.blog-content {
+    margin: 40px auto;
+}
+
+.blog-content ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-content ul li:first-child {
+    list-style: none;
+    
+}
+
+.blog-content li {
+    color: grey;
+    font-size: small;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.blog-content img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.blog-content p {
+    line-height: 30px;
+}
+
+.blog-content .image-caption, .blog-content .image-caption a:link, .blog-content .image-caption a:visited {
+    text-align: center;
+    color: grey;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+/* Main - About page: */
+
+
+.about-content {
+    margin: 40px auto;
+}
+
+.about-content h1 {
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    line-height: 25px;
+}
+
+.about-content img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-content h3 {
+    margin-bottom: 10px;
+}
+
+
+/* For mobile devices and phones: */
+
+@media only screen and (max-width: 768px) {
+    
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    /* Menu section: */
+
+    .menu {
+        height: 100px;
+        position: relative;
+    }
+
+    .menu-pix, .menu p, .menu .social-icons, .menu hr, .menu ul, .menu button {
+        display: none;
+    }
+
+    .menu .menu-header {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        margin-top: 0;
+
+    }
+
+    .menu .menu-mobile {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        cursor: pointer;
+    }
+
+    .menu .hamburger {
+        display: block;
+        float: left;
+        margin-left: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+        border: 1px solid white;
+        padding: 5px 15px;
+        border-radius: 4px;
+    }
+
+    .menu .hamburger .fa-bars {
+        font-size: 35px;
+        font-weight: 100;
+        width: 80%;
+    }
+
+    /* Main - Home page: */
+
+    .home-upper {
+        padding: 3% 5%;
+        height: 300px;
+    }
+
+    .home-upper h2 {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home-upper input[type="email"], .home-upper .green-button {
+        width: 100%;
+        display: block;
+    }
+
+    .home-lower .thumb-pix {
+        display: none;
+    }
+
+    .home-lower .thumb-text {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px 50px;
+    }
+
+    .thumb-text ul li:first-child {
+        font-size: 12px;
+    }
+    
+    .thumb-text li {
+        font-size: 12px;
+    }
+
+    /* Main - Blog page: */
+
+    .blog-content {
+        padding: 5px 10px;
+    }
+
+    .blog-content li {
+        font-size: 12px;
+    }
+
+    .blog-content ul li:first-child {
+        font-size: 12px;
+    }
+
+    
+
+    /* Main - About page: */
+
+    .about-content {
+        padding: 5px 10px;
+    }
+
+}
+
+
+
+
+
+
